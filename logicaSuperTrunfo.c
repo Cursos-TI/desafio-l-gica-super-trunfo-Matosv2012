@@ -114,6 +114,11 @@ int main() {
     printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
     printf("Super Poder: %.2f\n", superPoder2);
 
+     printf("Comparação de cartas (Atributo: População):\n");
+     printf("Carta 1 população: %lu\n", populacao1);
+     printf("Carta 2 população: %lu\n", populacao2);
+
+     
      if(populacao1 > populacao2 ) {
 
         printf("População da carta 1 venceu\n");
